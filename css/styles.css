@@ -1,6 +1,48 @@
 * {
-    margin:5px;
+    margin:0;
     padding: 0;
-    background-color: rgb(58, 53, 53);
     color: white;
+}
+
+h3 {
+    color: aquamarine;
+}
+
+body {
+    margin: 5px;
+    background-color: rgb(47, 209, 209);
+
+}
+section {
+    background-color: rgb(10, 10, 10);
+}
+
+/* sECCION DE PROFILE */
+.container-profile {
+    padding: 15px;
+    text-align: center;
+}
+
+.container-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/* SECCION DE INFORMACION */
+
+.container-info{
+    display: flex;
+}
+
+.container-info section {
+    width: 50%;
+    height: 200px;
+    margin: 2px;
+}
+
+.container-boutMe {
+    text-align: center;
+    font-size: 12px;
 }
