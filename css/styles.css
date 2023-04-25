@@ -11,6 +11,8 @@ h2 {
 
 h3 {    
     color: rgb(240, 106, 17);
+    text-align: center;
+    font-size: 18px;
 }
 
 h4 {
@@ -20,130 +22,143 @@ h4 {
     font-size: 20px;
 }
 body {
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     background-color: rgb(226, 78, 10);
 }
 
 section {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10);   
 }
 
-div {
-    background-color: rgb(43, 156, 90);
-}
-
-.espaciado {
-    padding-top: 30px;
-    background-color: rgb(10, 10, 10);
-}
-/* sECCION DE PROFILE */
+/*Div Encabezado: contiene 3 Secciones */
 .encabezado {
     display: flex;
-}
+    background-color: aqua;
+    margin: 5px;
 
+}
+/*Seccion 1*/
 .foto img {
-    padding: 18px;
+    padding: 30px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-
+/*Seccion 2*/
 .nombre {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 10px;
     text-align: justify;
 }
+/*Seccion 3*/
 .datos {
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding: 20px;
     text-align: right;
 }
-.datos ul{
-    padding-top: 5px;
-    font-size: 14px;
-}            
 
-ul {
-    padding-left: 2rem;
-    list-style-image: none;
-  }
-
-  ul li1 {
-    padding-left: 2rem;
-    background-image: url(https://th.bing.com/th/id/R.bd8d33454102882c47198f750622ee3c?rik=mtT6hizwtbwZgQ&riu=http%3a%2f%2fwww.stickpng.com%2fassets%2fimages%2f584856bce0bb315b0f7675ad.png&ehk=G1KKE6epeng1OibTkh%2fzLiS6d8PKwIlsjnMs0YfY42M%3d&risl=&pid=ImgRaw&r=0);
-    background-position: 0 0;
-    background-size: 1.2rem 1.2rem;
-    background-repeat: no-repeat;
-}
-
-  ul li2 {
-    padding-left: 2rem;
-    background-image: url(https://i1.wp.com/www3.uah.es/masteruniversitario_elecuprof/sites/all/media/telefono.png);
-    background-position: 0 0;
-    background-size: 1.2rem 1.2rem;
-    background-repeat: no-repeat;
-}
-
-/* SECCION DE INFORMACION */
-
+/* Div informacion: contiene 3 Secciones */
 .informacion{
-    display: flex;
-    background-color: orangered;
+    height: 390px;
+    width: 550px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(48, 32, 138);
+    justify-items: start;
 }
 
 .informacion section {
-    width: 50%;
-    margin: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    width: 240px;
 }
 
+/* Primer Seccion*/
 .sobre_mi {
-    padding: 20px;
     text-align: center;
 }
 
 .sobre_mi p{
-    margin: 10px;
+    margin: 16px;
     text-align: justify;
     font-size: 12px;
 }
 
-/*Segundo seccion experience */
-.experiencia {
-    padding: 20px;
-    text-align: center;    
-}
-
-
-/* Footer */
-footer {
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
-
-footer section{
-    padding: 20px;
-    width: 33%;
-    height: 40px;
-    margin: 4px;
-   
-    background-color: blueviolet;
-}
-
+/* Segunda seccion */
 .habilidades {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 16px;
     text-align: center;
-    font-size: 12px;
 }
 .habilidades img {
     margin: 3px;
     width: 40px;
     height: 40px;
 }
-.habilidades img Logo_Office {
-    padding-top: 15px;
+
+/*Tercera seccion experience */
+.experiencia {
+    margin: 16px;
+    text-align: center;
+}
+
+.experiencia p{
+    text-align: justify;
+    font-size: 12px;
+}
+/* Footer */
+footer {
+    background-color: black;
+    display: flex;
+}
+
+footer section{
+    padding: 15px;
+    margin: 5px;
+    width: 550px;
+    height: 120px;
+ 
+    justify-items: start;
+}
+
+.referfe h4{
+    font-size: 14px;
+    text-align: center;
+}
+
+.referfe {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.ref2 {
+    margin-left: 20px;
+} 
+
+.table_inte{
+ 
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.table_inte p {
+font-family: sans-serif;
+}
+
+.table_inte img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    
 }
